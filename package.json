@@ -62,5 +62,8 @@
       "import": "./dist/uilibtest12345.es.js",
       "require": "./dist/uilibtest12345.umd.js"
     }
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
   }
 }

@@ -32,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - run: yarn ci
-      - run: yarn run build-storybook
+      - run: yarn build-storybook
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
